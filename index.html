@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>아리노 - 키링 쇼핑몰</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Pretendard', sans-serif;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #555;
+    }
+    .banner {
+      background: url('https://via.placeholder.com/1200x300?text=ARINO+BANNER') no-repeat center center;
+      background-size: cover;
+      height: 300px;
+    }
+    .product-section {
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .product {
+      border: 1px solid #eee;
+      padding: 10px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product h3 {
+      font-size: 16px;
+      margin: 10px 0 5px;
+    }
+    .product p {
+      color: #999;
+    }
+    footer {
+      margin-top: 40px;
+      background: #f5f5f5;
+      padding: 30px;
+      text-align: center;
+      font-size: 13px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">ARINO</div>
+  <nav>
+    <a href="#">홈</a>
+    <a href="#">신상품</a>
+    <a href="#">키링</a>
+    <a href="#">이벤트</a>
+    <a href="#">문의</a>
+  </nav>
+</header>
+
+<div class="banner"></div>
+
+<section class="product-section">
+  <div class="product">
+    <img src="https://via.placeholder.com/300x300?text=무지개+키링" alt="무지개 키링">
+    <h3>무지개 클로버 키링</h3>
+    <p>₩5,000</p>
+  </div>
+  <div class="product">
+    <img src="https://via.placeholder.com/300x300?text=고양이+키링" alt="고양이 키링">
+    <h3>행운 고양이 키링</h3>
+    <p>₩6,500</p>
+  </div>
+  <!-- 원하는 만큼 복사해서 상품 추가 -->
+</section>
+
+<footer>
+  상호명: 아리노 | 대표자: 윤수정<br>
+  사업자등록번호: 123-45-67890<br>
+  고객센터: 010-1234-5678 | 이메일: arino@example.com<br>
+  ⓒ 2025 ARINO. All rights reserved.
+</footer>
+
+</body>
+</html>
